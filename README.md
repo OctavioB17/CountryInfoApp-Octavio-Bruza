@@ -20,7 +20,7 @@ Start the development server:
 ```bash
 npm run dev
 ```
-The application should automatically open in your browser at http://localhost:3000. If it doesn't, you can manually navigate to that URL.
+The application should automatically open in your browser at http://localhost:5173.
 
 ## Backend Setup
 
@@ -39,7 +39,7 @@ npm install
 Ensure that port 3000 is available on your system. If it's not, you can change the port by editing the .env file:
 
 ```bash
-PORT=your_desired_port_numberÇ
+PORT=your_desired_port_number
 ```
 
 Start the backend server:
@@ -47,3 +47,6 @@ Start the backend server:
 ```bash
 node app.js
 ```
+
+If everything is fine, the server will be set up on port 3000, with the url http://localhost:3000
+T
